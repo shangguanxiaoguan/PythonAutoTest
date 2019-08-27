@@ -37,7 +37,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'web.apps.WebConfig',
+    #'web.apps.WebConfig',
+    #添加web应用程序
+    'web',
 ]
 
 MIDDLEWARE = [
